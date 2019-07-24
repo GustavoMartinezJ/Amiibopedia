@@ -3,7 +3,7 @@
 
     public class Characters
     {
-        public Character[] amiibo { get; set; }
+        public Character[] food2u { get; set; }
     }
 
     public class Character

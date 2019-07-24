@@ -1,0 +1,15 @@
+C:\Users\Gustavo Martinez\Source\Repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia\bin\Debug\netstandard2.0\Amiibopedia.deps.json
+C:\Users\Gustavo Martinez\Source\Repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia\bin\Debug\netstandard2.0\Amiibopedia.dll
+C:\Users\Gustavo Martinez\Source\Repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia\bin\Debug\netstandard2.0\Amiibopedia.pdb
+C:\Users\Gustavo Martinez\Source\Repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia\obj\Debug\netstandard2.0\Amiibopedia.csprojAssemblyReference.cache
+C:\Users\Gustavo Martinez\Source\Repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Gustavo Martinez\Source\Repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Gustavo Martinez\Source\Repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia\obj\Debug\netstandard2.0\Amiibopedia.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo Martinez\Source\Repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia\obj\Debug\netstandard2.0\Amiibopedia.AssemblyMetadataInputs.cache
+C:\Users\Gustavo Martinez\Source\Repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia\obj\Debug\netstandard2.0\Amiibopedia.AssemblyMetadata.cs
+C:\Users\Gustavo Martinez\Source\Repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia\obj\Debug\netstandard2.0\Amiibopedia.AssemblyInfoInputs.cache
+C:\Users\Gustavo Martinez\Source\Repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia\obj\Debug\netstandard2.0\Amiibopedia.AssemblyInfo.cs
+C:\Users\Gustavo Martinez\Source\Repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Gustavo Martinez\Source\Repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia\obj\Debug\netstandard2.0\Amiibopedia.dll
+C:\Users\Gustavo Martinez\Source\Repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia\obj\Debug\netstandard2.0\Amiibopedia.pdb
+C:\Users\Gustavo Martinez\source\repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia\obj\Debug\netstandard2.0\Views\DetailPage.xaml.g.cs

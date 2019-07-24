@@ -12,10 +12,11 @@ namespace Amiibopedia.ViewModels
 {
     public class MainPageViewModel : BaseViewModel
     {
-        private ObservableCollection<Amiibo> _amiibos;
+
+        private ObservableCollection<Platillo> _amiibos;
         public ObservableCollection<Character> Characters { get; set; }
 
-        public ObservableCollection<Amiibo> Amiibos
+        public ObservableCollection<Platillo> Amiibos
         {
             get => _amiibos;
             set
@@ -36,12 +37,12 @@ namespace Amiibopedia.ViewModels
                     var character = param as Character;
                     if (character != null)
                     {
-                        string url = $"http://www.amiiboapi.com/api/amiibo/?character={character.name}";
+                        string url = $"https://83a1f2d8.ngrok.io/platillos/?platillo={character.name}";
                         var service =
-                            new HttpHelper<Amiibos>();
+                            new HttpHelper<Platillos>();
                         var amiibos =
                             await service.GetRestServiceDataAsync(url);
-                        Amiibos = new ObservableCollection<Amiibo>(amiibos.amiibo);
+                        Amiibos = new ObservableCollection<Platillo>(amiibos.food2u);
                     }
                     IsBusy = false;
                 });
@@ -50,12 +51,13 @@ namespace Amiibopedia.ViewModels
         public async Task LoadCharacters()
         {
             IsBusy = true;
-            var url = "http://www.amiiboapi.com/api/character";
+            var url = "https://83a1f2d8.ngrok.io/keys";
             var service =
                 new HttpHelper<Characters>();
             var characters = await service.GetRestServiceDataAsync(url);
-            Characters = new ObservableCollection<Character>(characters.amiibo);
+            Characters = new ObservableCollection<Character>(characters.food2u);
             IsBusy = false;
         }
+        
     }
 }

@@ -22,4 +22,6 @@ namespace Amiibopedia.Helpers
             return result;
         }
     }
+
+
 }

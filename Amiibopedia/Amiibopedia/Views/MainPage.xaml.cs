@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Amiibopedia.Models;
 using Amiibopedia.ViewModels;
+using Amiibopedia.Views;
 using Syncfusion.SfAutoComplete.XForms;
 using Xamarin.Forms;
 
@@ -40,6 +42,18 @@ namespace Amiibopedia
                     view.FadeTo(1,500,Easing.BounceIn)
                 );
 
+        }
+
+        private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            Platillo selectedItem = e.SelectedItem as Platillo;
+        }
+
+        private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            Platillo tappedItem = e.Item as Platillo;
+            //DisplayAlert("More Context Action", tappedItem.nombre + " more context action", "OK");
+            Navigation.PushModalAsync(new DetailPage(tappedItem));
         }
     }
 }

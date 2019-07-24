@@ -5,7 +5,7 @@
              xmlns:local="clr-namespace:Amiibopedia"
              xmlns:behaviorsPack="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
              x:Class="Amiibopedia.MainPage"
-             Title="Amiibopedia">
+             Title="FoodWiki">
 
     <Grid>
 
@@ -18,7 +18,7 @@
         <autocomplete:SfAutoComplete HeightRequest="40"
                                      DataSource="{Binding Characters}"
                                      DisplayMemberPath="name"
-                                     Watermark="¡Busca tu Amiibo!">
+                                     Watermark="¡Busca tu comida!">
             <autocomplete:SfAutoComplete.Behaviors>
                 <behaviorsPack:EventToCommandBehavior EventName="SelectionChanged"
                                                       Command="{Binding SearchCommand}"
@@ -28,7 +28,9 @@
 
         <ListView
             ItemsSource="{Binding Amiibos}"
-            RowHeight="250">
+            ItemSelected="ListView_ItemSelected" 
+            ItemTapped="ListView_ItemTapped"
+            RowHeight="300">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell Appearing="Cell_OnAppearing">
@@ -36,13 +38,18 @@
                                Margin="5"
                                BackgroundColor="White">
                             <StackLayout>
-                                <Image Source="{Binding image}"
+                                <Image Source="{Binding imagen_1}"
                                        HeightRequest="100"></Image>
-                                <Label Text="{Binding name}"
-                                       FontSize="Large"></Label>
-                                <Label Text="{Binding amiiboSeries, StringFormat='Amiibo Series: {0}'}"></Label>
-                                <Label Text="{Binding gameSeries, StringFormat='Game Series: {0}'}"></Label>
-                                <Label Text="{Binding type, StringFormat='Type: {0}'}"></Label>
+                                <!--<Image Source="{Binding imagen_2}"
+                                    HeightRequest="100"></Image>
+                                <Image Source="{Binding imagen_3}"
+                                    HeightRequest="100"></Image>-->
+                                <Label Text="{Binding nombre}"
+                                    FontSize="Large"></Label>
+                                <Label Text="{Binding descripcion, StringFormat='Descripción: {0}'}"></Label>
+                                <!--<Label Text="{Binding receta, StringFormat='Receta: {0}'}"></Label>-->
+                                    <!--<Label Text="{Binding gameSeries, StringFormat='Game Series: {0}'}"></Label>
+                                <Label Text="{Binding type, StringFormat='Type: {0}'}"></Label>-->
                             </StackLayout>
                         </Frame>
                     </ViewCell>

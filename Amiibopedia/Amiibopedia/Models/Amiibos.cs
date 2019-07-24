@@ -1,30 +1,38 @@
 ﻿namespace Amiibopedia.Models
 {
 
-    public class Amiibos
+    public class Platillos
     {
-        public Amiibo[] amiibo { get; set; }
+        public Platillo[] food2u { get; set; }
     }
 
-    public class Amiibo
+    public class Platillo
     {
-        public string amiiboSeries { get; set; }
-        public string character { get; set; }
-        public string gameSeries { get; set; }
-        public string head { get; set; }
-        public string image { get; set; }
-        public string name { get; set; }
-        public Release release { get; set; }
-        public string tail { get; set; }
-        public string type { get; set; }
+        public string nombre { get; set; }
+        public string descripcion { get; set; }
+        public string imagen_1 { get; set; }
+        public string imagen_2 { get; set; }
+        public string imagen_3 { get; set; }
+        public Ingrediente[] ingredientes { get; set; }
+        public Receta receta { get; set; }
     }
 
-    public class Release
+    public class Ingrediente
     {
-        public string au { get; set; }
-        public string eu { get; set; }
-        public string jp { get; set; }
-        public string na { get; set; }
+        public string nombre { get; set; }
+        public string cantidad { get; set; }
+        public string imagen { get; set; }
     }
 
+    public class Receta
+    {
+        public int tiempo { get; set; }
+        public string pasos { get; set; }
+        public Categoria[] categorias { get; set; }
+    }
+
+    public class Categoria
+    {
+        public string nombre { get; set; }
+    }
 }
