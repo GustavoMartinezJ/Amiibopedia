@@ -14,7 +14,9 @@
         public string imagen_2 { get; set; }
         public string imagen_3 { get; set; }
         public Ingrediente[] ingredientes { get; set; }
-        public Receta receta { get; set; }
+        public int tiempo { get; set; }
+        public string receta { get; set; }
+        public Categoria[] categorias { get; set; }
     }
 
     public class Ingrediente

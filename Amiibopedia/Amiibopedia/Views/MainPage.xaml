@@ -10,7 +10,7 @@
     <Grid>
 
         <StackLayout>
-       <!--<SearchBar Placeholder="¡Busca tu Amiibo!"
+            <!--<SearchBar Placeholder="¡Busca tu Amiibo!"
                   x:Name="search"
                   SearchCommand="{Binding SearchCommand}"
                   SearchCommandParameter="{Binding Text, Source={x:Reference search}}"></SearchBar>-->

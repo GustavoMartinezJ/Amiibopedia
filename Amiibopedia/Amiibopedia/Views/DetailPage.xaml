@@ -29,9 +29,8 @@
                             </ListView.ItemTemplate>
                 </ListView>
                         <Label Text="Receta" />
-                        <Label Text="{Binding receta}" />
                         <Label Text="{Binding tiempo}" />
-                        <Label Text="{Binding pasos}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                        <Label Text="{Binding receta}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
                         <Label Text="Categorias" />
                         <ListView ItemsSource="{Binding categorias}">
                             <ListView.ItemTemplate>
