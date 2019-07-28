@@ -10,7 +10,7 @@
     <Grid>
 
         <StackLayout>
-       <!--<SearchBar Placeholder="¡Busca tu Amiibo!"
+            <!--<SearchBar Placeholder="¡Busca tu Amiibo!"
                   x:Name="search"
                   SearchCommand="{Binding SearchCommand}"
                   SearchCommandParameter="{Binding Text, Source={x:Reference search}}"></SearchBar>-->
@@ -28,9 +28,8 @@
 
         <ListView
             ItemsSource="{Binding Amiibos}"
-            ItemSelected="ListView_ItemSelected" 
             ItemTapped="ListView_ItemTapped"
-            RowHeight="300">
+            RowHeight="180">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell Appearing="Cell_OnAppearing">
@@ -44,10 +43,9 @@
                                     HeightRequest="100"></Image>
                                 <Image Source="{Binding imagen_3}"
                                     HeightRequest="100"></Image>-->
-                                <Label Text="{Binding nombre}"
+                                    <Label Text="{Binding nombre}"
                                     FontSize="Large"></Label>
-                                <Label Text="{Binding descripcion, StringFormat='Descripción: {0}'}"></Label>
-                                <!--<Label Text="{Binding receta, StringFormat='Receta: {0}'}"></Label>-->
+                                    <!--<Label Text="{Binding receta, StringFormat='Receta: {0}'}"></Label>-->
                                     <!--<Label Text="{Binding gameSeries, StringFormat='Game Series: {0}'}"></Label>
                                 <Label Text="{Binding type, StringFormat='Type: {0}'}"></Label>-->
                             </StackLayout>
