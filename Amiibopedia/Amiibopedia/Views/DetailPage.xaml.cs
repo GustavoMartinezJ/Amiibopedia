@@ -13,23 +13,24 @@ namespace Amiibopedia.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DetailPage : ContentPage
     {
-        public ObservableCollection<string> Items { get; set; }
+        public ObservableCollection<Platillo> Items { get; set; }
 
         public DetailPage(Platillo Detail)
         {
             InitializeComponent();
 
-            Items = new ObservableCollection<string>
+            Items = new ObservableCollection<Platillo>
             {
-                Detail.nombre,
-                Detail.descripcion,
-                Detail.imagen_1,
-                Detail.imagen_2,
-                Detail.imagen_3,
-                Detail.ingredientes[0].nombre,
-                Detail.receta.pasos
+                //Detail.nombre,
+                //Detail.descripcion,
+                //Detail.imagen_1,
+                //Detail.imagen_2,
+                //Detail.imagen_3,
+                //Detail.ingredientes[0].nombre,
+                //Detail.receta.pasos
+                
             };
-			
+			Items.Add(Detail);
 			MyListView.ItemsSource = Items;
         }
 

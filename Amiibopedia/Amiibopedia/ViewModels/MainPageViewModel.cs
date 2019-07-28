@@ -37,7 +37,7 @@ namespace Amiibopedia.ViewModels
                     var character = param as Character;
                     if (character != null)
                     {
-                        string url = $"https://83a1f2d8.ngrok.io/platillos/?platillo={character.name}";
+                        string url = $"https://8ceba671.ngrok.io/platillos/?platillo={character.name}";
                         var service =
                             new HttpHelper<Platillos>();
                         var amiibos =
@@ -51,7 +51,7 @@ namespace Amiibopedia.ViewModels
         public async Task LoadCharacters()
         {
             IsBusy = true;
-            var url = "https://83a1f2d8.ngrok.io/keys";
+            var url = "https://8ceba671.ngrok.io/keys";
             var service =
                 new HttpHelper<Characters>();
             var characters = await service.GetRestServiceDataAsync(url);

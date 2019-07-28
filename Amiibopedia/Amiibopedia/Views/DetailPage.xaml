@@ -2,32 +2,52 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Amiibopedia.Views.DetailPage">
-  <ListView x:Name="MyListView"
+    <ListView x:Name="MyListView"
             ItemsSource="{Binding Items}"
-            ItemTapped="Handle_ItemTapped"
-            CachingStrategy="RecycleElement">
-            
-    <!--Built in Cells-->
-    <ListView.ItemTemplate>
-        <DataTemplate>
-            <TextCell Text="{Binding .}" />
-        </DataTemplate>
-    </ListView.ItemTemplate>
+              RowHeight="1000"
+              BackgroundColor="LightBlue">
+        
+        <!--Custom View Cells-->
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <StackLayout>
+                <Label Text="{Binding nombre}" FontSize="Large" />
+                <Label Text="{Binding descripcion}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Image Source="{Binding imagen_1}" />
+                        <Label Text="Ingredientes" />
+                        <ListView ItemsSource="{Binding ingredientes}">
+                    <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout>
+                                            <Label Text="{Binding nombre}" />
+                                            <Label Text="{Binding cantidad}" />
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                </ListView>
+                        <Label Text="Receta" />
+                        <Label Text="{Binding receta}" />
+                        <Label Text="{Binding tiempo}" />
+                        <Label Text="{Binding pasos}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                        <Label Text="Categorias" />
+                        <ListView ItemsSource="{Binding categorias}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout>
+                                            <Label Text="{Binding nombre}" />
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
     
-    <!--Custom View Cells-->
-    <!--
-    <ListView.ItemTemplate>
-      <DataTemplate>
-        <ViewCell>
-          <StackLayout>
-            <Label Text="{Binding Text}" 
-                   Style="{DynamicResource ListItemTextStyle}" />
-            <Label Text="{Binding Detail}" 
-                   Style="{DynamicResource ListItemDetailTextStyle}"/>
-          </StackLayout>
-        </ViewCell>
-      </DataTemplate>
-    </ListView.ItemTemplate>
-    -->
-  </ListView>
+    </ListView>
 </ContentPage>

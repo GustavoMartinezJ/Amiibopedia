@@ -120,8 +120,6 @@ C:\Users\Gustavo Martinez\source\repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\
 C:\Users\Gustavo Martinez\source\repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia.Android\obj\Debug\81\android\assets\System.Xml.pdb
 C:\Users\Gustavo Martinez\source\repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Gustavo Martinez\source\repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\Gustavo Martinez\source\repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia\bin\Debug\netstandard2.0\Amiibopedia.dll
-C:\Users\Gustavo Martinez\source\repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia.Android\bin\Debug\Amiibopedia.dll.mdb
 C:\Users\Gustavo Martinez\source\repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia.Android\obj\Debug\81\linksrc\Amiibopedia.dll.mdb
 C:\Users\Gustavo Martinez\source\repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia.Android\obj\Debug\81\linksrc\FormsViewGroup.dll.mdb
 C:\Users\Gustavo Martinez\source\repos\GustavoMartinezJ\Amiibopedia\Amiibopedia\Amiibopedia.Android\obj\Debug\81\linksrc\Plugin.DeviceInfo.dll.mdb

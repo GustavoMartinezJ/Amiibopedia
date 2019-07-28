@@ -16,4 +16,8 @@
     <ResultingAbi></ResultingAbi>
     <SdkVersion>26</SdkVersion>
   </Device>
+  <Device id="2b3a6063">
+    <ResultingAbi>armeabi-v7a</ResultingAbi>
+    <SdkVersion>27</SdkVersion>
+  </Device>
 </Devices>
