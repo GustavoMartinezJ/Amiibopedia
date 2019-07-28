@@ -12,13 +12,13 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyMetadata("EnableLiveReload", "true")]
-[assembly: System.Reflection.AssemblyMetadata("MqttSessionId", "ec8eb59d2412")]
+[assembly: System.Reflection.AssemblyMetadata("MqttSessionId", "fc4596420875")]
 [assembly: System.Reflection.AssemblyMetadata("MqttHostName", "localhost")]
-[assembly: System.Reflection.AssemblyMetadata("MqttLocalHostAddress", "10.10.80.23")]
+[assembly: System.Reflection.AssemblyMetadata("MqttLocalHostAddress", "192.168.137.105")]
 [assembly: System.Reflection.AssemblyMetadata("MqttPort", "1883")]
 [assembly: System.Reflection.AssemblyMetadata("MqttTopicPrefix", "xlr/")]
-[assembly: System.Reflection.AssemblyMetadata("MqttSecretKey", "tybrAeTskJWvlfOu753Xd2nA6Gb619T/xwE5mVjJLFU=")]
-[assembly: System.Reflection.AssemblyMetadata("MqttSecretIV", "BYd83HW3YFY4M0CWyDG2MQ==")]
+[assembly: System.Reflection.AssemblyMetadata("MqttSecretKey", "kDNHcZgZnQfKnWQruNtMNpZpItMnu/ZTWqQBZqhMyBE=")]
+[assembly: System.Reflection.AssemblyMetadata("MqttSecretIV", "iOqmsGbpEFdRJPQmwDV45g==")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Amiibopedia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

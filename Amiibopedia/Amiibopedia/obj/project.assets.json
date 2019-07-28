@@ -693,11 +693,12 @@
       ]
     },
     "Merq/1.0.0-rc": {
-      "sha512": "3qDARqsMuBp2ATWuNlVu51gKieMKe8K9CWTRCjBynMgBpeSelFFjTRrXDUdTyuA8w3rbvUZEyrZ/OBAPwQzV9w==",
+      "sha512": "gX8kGXFwdvl31avBSYks1ONgKPr/in+WnDkFOrchfoHJWsogkbl0eQrtUjBVa/26g5ucIF98hlH452PslFPT5A==",
       "type": "package",
       "path": "merq/1.0.0-rc",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/netstandard1.1/Merq.dll",
         "lib/netstandard1.1/Merq.xml",
         "merq.1.0.0-rc.nupkg.sha512",
@@ -725,7 +726,6 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -906,7 +906,7 @@
       ]
     },
     "Syncfusion.Licensing/16.2.0.46": {
-      "sha512": "E20Az08oquueGoHAkXMNTsjJhp/h+9YLFAQvKzPxQxEzblJ57QzoB7LiTSGURi9rFjf1gtdApG8p/QpMWsH/MQ==",
+      "sha512": "eWHbVzNSlDIMHQyUUONecEl5i8pSLiOp9b1faP7PHOuuBVa7reHcXzLW81tCtYj1JoXtuQqFjvBABQldeJrIKw==",
       "type": "package",
       "path": "syncfusion.licensing/16.2.0.46",
       "files": [
@@ -931,7 +931,7 @@
       ]
     },
     "Syncfusion.Xamarin.SfAutoComplete/16.2.0.46": {
-      "sha512": "tznVspwI8VysAAEbgSpkAugYI+XrKGlT+5hBzrMYt1KK9J1zMQUWTzmGzt+i/YtyikyyYk92BdVPMYxOSPytbA==",
+      "sha512": "hCn/Pi6SPvaziRHrK0XAfN+HElUjpbRBxyvjQnfbz7+vrMQED1RJdiyfplRL2dmYjlkIlEV1h9KmV1FOjPswEQ==",
       "type": "package",
       "path": "syncfusion.xamarin.sfautocomplete/16.2.0.46",
       "files": [
@@ -1118,6 +1118,7 @@
       "path": "system.componentmodel/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -1304,7 +1305,6 @@
         "lib/net45/System.Diagnostics.Tracer.pdb",
         "lib/net45/System.Diagnostics.Tracer.xml",
         "lib/netstandard1.3/System.Diagnostics.Tracer.dll",
-        "lib/netstandard1.3/System.Diagnostics.Tracer.dll.mdb",
         "lib/netstandard1.3/System.Diagnostics.Tracer.pdb",
         "lib/netstandard1.3/System.Diagnostics.Tracer.xml",
         "readme.txt",
@@ -1935,6 +1935,7 @@
       "path": "system.reflection/4.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2275,6 +2276,7 @@
       "path": "system.resources.resourcemanager/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2331,7 +2333,6 @@
       "path": "system.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2503,6 +2504,7 @@
       "path": "system.runtime.interopservices.windowsruntime/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net45/_._",
@@ -2551,6 +2553,7 @@
       "path": "system.runtime.serialization.primitives/4.1.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2690,6 +2693,7 @@
       "path": "system.threading/4.0.11",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2833,7 +2837,6 @@
         "lib/MonoAndroid10/Plugin.DeviceInfo.Abstractions.pdb",
         "lib/MonoAndroid10/Plugin.DeviceInfo.Abstractions.xml",
         "lib/MonoAndroid10/Plugin.DeviceInfo.dll",
-        "lib/MonoAndroid10/Plugin.DeviceInfo.dll.mdb",
         "lib/MonoAndroid10/Plugin.DeviceInfo.pdb",
         "lib/MonoAndroid10/Plugin.DeviceInfo.xml",
         "lib/UAP10/Plugin.DeviceInfo.Abstractions.dll",
@@ -2853,7 +2856,6 @@
         "lib/Xamarin.iOS10/Plugin.DeviceInfo.Abstractions.pdb",
         "lib/Xamarin.iOS10/Plugin.DeviceInfo.Abstractions.xml",
         "lib/Xamarin.iOS10/Plugin.DeviceInfo.dll",
-        "lib/Xamarin.iOS10/Plugin.DeviceInfo.dll.mdb",
         "lib/Xamarin.iOS10/Plugin.DeviceInfo.pdb",
         "lib/Xamarin.iOS10/Plugin.DeviceInfo.xml",
         "lib/XamarinTVOS/Plugin.DeviceInfo.Abstractions.dll",
@@ -2885,7 +2887,7 @@
       ]
     },
     "Xamarin.Forms/3.1.0.697729": {
-      "sha512": "oYfHpCY9i9wN4vLllsIhzDZY5iOCUtZ3RHxID1fiXOcf7yL9UA16NUsI8opoNmpv1Ru2lTGG9ZKKT1sYS6DLjA==",
+      "sha512": "6y1rnRKVqgRWpGy+mjlgf5cxRYiHsiGS4b51/AJxxkEyf7w1XJGzcLl4wV8Yjpv6/kKxsIBoAgqxIdFElQcNkA==",
       "type": "package",
       "path": "xamarin.forms/3.1.0.697729",
       "files": [
@@ -2918,13 +2920,11 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
-        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
@@ -2943,7 +2943,6 @@
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll.mdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.pdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.pdb",
@@ -3038,7 +3037,7 @@
       ]
     },
     "Xamarin.Forms.BehaviorsPack/2.0.0": {
-      "sha512": "y10QSVriQtrknkW6xkxmotXLS7xvgdk5WnwGt9fx0/Zd6aq3qggScrlGLTPKcGFUC8+aQJ+9JkMBurGdNORBhw==",
+      "sha512": "UWXg9OF+6dMRv9VVK0L/9h+F9/mubaOTBa8vmUQu4Yu3y5ia3klXVoOAAV+O8rmsVLIfFTJcxTo4vrI4963anQ==",
       "type": "package",
       "path": "xamarin.forms.behaviorspack/2.0.0",
       "files": [
@@ -3064,13 +3063,10 @@
         "build/Xamarin.LiveReload.targets",
         "build/Xamarin.LiveReload.tasks",
         "lib/netstandard2.0/Xamarin.Forms.Loader.dll",
-        "lib/netstandard2.0/Xamarin.Forms.Loader.dll.mdb",
         "lib/netstandard2.0/Xamarin.Forms.Loader.pdb",
         "lib/netstandard2.0/Xamarin.Live.Reload.dll",
-        "lib/netstandard2.0/Xamarin.Live.Reload.dll.mdb",
         "lib/netstandard2.0/Xamarin.Live.Reload.pdb",
         "lib/netstandard2.0/Xamarin.Live.dll",
-        "lib/netstandard2.0/Xamarin.Live.dll.mdb",
         "lib/netstandard2.0/Xamarin.Live.pdb",
         "tools/mqtt.exe",
         "tools/mqtt.exe.config",
@@ -3091,23 +3087,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gustavo Martinez\\.nuget\\packages\\": {},
+    "C:\\Users\\Roger Arjona\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gustavo Martinez\\Source\\Repos\\GustavoMartinezJ\\Amiibopedia\\Amiibopedia\\Amiibopedia\\Amiibopedia.csproj",
+      "projectUniqueName": "C:\\Users\\Roger Arjona\\source\\repos\\Amiibopedia\\Amiibopedia\\Amiibopedia\\Amiibopedia.csproj",
       "projectName": "Amiibopedia",
-      "projectPath": "C:\\Users\\Gustavo Martinez\\Source\\Repos\\GustavoMartinezJ\\Amiibopedia\\Amiibopedia\\Amiibopedia\\Amiibopedia.csproj",
-      "packagesPath": "C:\\Users\\Gustavo Martinez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gustavo Martinez\\Source\\Repos\\GustavoMartinezJ\\Amiibopedia\\Amiibopedia\\Amiibopedia\\obj\\",
+      "projectPath": "C:\\Users\\Roger Arjona\\source\\repos\\Amiibopedia\\Amiibopedia\\Amiibopedia\\Amiibopedia.csproj",
+      "packagesPath": "C:\\Users\\Roger Arjona\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Roger Arjona\\source\\repos\\Amiibopedia\\Amiibopedia\\Amiibopedia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Gustavo Martinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Roger Arjona\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

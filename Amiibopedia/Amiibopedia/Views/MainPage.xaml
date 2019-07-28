@@ -69,7 +69,7 @@
         <Grid Opacity=".8"
               BackgroundColor="Black"
               IsVisible="{Binding IsBusy}">
-            <ActivityIndicator IsRunning="{Binding IsBusy}"
+            <ActivityIndicator Color="Blue" IsRunning="{Binding IsBusy}"
                                HorizontalOptions="Center"></ActivityIndicator>
         </Grid>
 

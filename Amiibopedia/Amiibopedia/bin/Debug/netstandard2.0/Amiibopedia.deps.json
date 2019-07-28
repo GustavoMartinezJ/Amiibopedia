@@ -28,10 +28,7 @@
           "System.Threading.Tasks": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.1/Merq.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.1.17.0"
-          }
+          "lib/netstandard1.1/Merq.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -43,10 +40,7 @@
       },
       "Newtonsoft.Json/11.0.2": {
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.0.2.21924"
-          }
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.native.System/4.0.0": {
@@ -57,10 +51,7 @@
       },
       "Syncfusion.Licensing/16.2.0.46": {
         "runtime": {
-          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
-            "assemblyVersion": "16.2.0.46",
-            "fileVersion": "16.2.0.46"
-          }
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
         }
       },
       "Syncfusion.Xamarin.SfAutoComplete/16.2.0.46": {
@@ -69,10 +60,7 @@
           "Xamarin.Forms": "3.1.0.697729"
         },
         "runtime": {
-          "lib/netstandard1.0/Syncfusion.SfAutoComplete.XForms.dll": {
-            "assemblyVersion": "16.2451.0.46",
-            "fileVersion": "16.2451.0.46"
-          }
+          "lib/netstandard1.0/Syncfusion.SfAutoComplete.XForms.dll": {}
         }
       },
       "System.Collections/4.0.11": {
@@ -96,10 +84,7 @@
           "System.Threading.Tasks": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/System.Collections.Concurrent.dll": {
-            "assemblyVersion": "4.0.12.0",
-            "fileVersion": "1.0.24212.1"
-          }
+          "lib/netstandard1.3/System.Collections.Concurrent.dll": {}
         }
       },
       "System.ComponentModel/4.0.1": {
@@ -107,10 +92,7 @@
           "System.Runtime": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/System.ComponentModel.dll": {
-            "assemblyVersion": "4.0.1.0",
-            "fileVersion": "1.0.24212.1"
-          }
+          "lib/netstandard1.3/System.ComponentModel.dll": {}
         }
       },
       "System.Diagnostics.Debug/4.0.11": {
@@ -132,10 +114,7 @@
           "System.Diagnostics.TraceSource": "4.0.0"
         },
         "runtime": {
-          "lib/netstandard1.3/System.Diagnostics.Tracer.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.8.0"
-          }
+          "lib/netstandard1.3/System.Diagnostics.Tracer.dll": {}
         }
       },
       "System.Diagnostics.TraceSource/4.0.0": {
@@ -183,10 +162,7 @@
           "System.Runtime.Extensions": "4.1.0"
         },
         "runtime": {
-          "lib/netstandard1.6/System.Linq.dll": {
-            "assemblyVersion": "4.1.0.0",
-            "fileVersion": "1.0.24212.1"
-          }
+          "lib/netstandard1.6/System.Linq.dll": {}
         }
       },
       "System.Linq.Expressions/4.1.0": {
@@ -210,10 +186,7 @@
           "System.Threading": "4.0.11"
         },
         "runtime": {
-          "lib/netstandard1.6/System.Linq.Expressions.dll": {
-            "assemblyVersion": "4.1.0.0",
-            "fileVersion": "1.0.24212.1"
-          }
+          "lib/netstandard1.6/System.Linq.Expressions.dll": {}
         }
       },
       "System.Net.Mqtt/0.5.10-beta": {
@@ -224,10 +197,7 @@
           "System.Runtime.Serialization.Primitives": "4.1.1"
         },
         "runtime": {
-          "lib/netstandard2.0/System.Net.Mqtt.dll": {
-            "assemblyVersion": "0.5.0.0",
-            "fileVersion": "0.5.10.0"
-          }
+          "lib/netstandard2.0/System.Net.Mqtt.dll": {}
         }
       },
       "System.ObjectModel/4.0.12": {
@@ -239,10 +209,7 @@
           "System.Threading": "4.0.11"
         },
         "runtime": {
-          "lib/netstandard1.3/System.ObjectModel.dll": {
-            "assemblyVersion": "4.0.12.0",
-            "fileVersion": "1.0.24212.1"
-          }
+          "lib/netstandard1.3/System.ObjectModel.dll": {}
         }
       },
       "System.Reactive/3.0.0": {
@@ -271,10 +238,7 @@
           "System.Threading.Tasks": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/System.Reactive.Core.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.0"
-          }
+          "lib/netstandard1.3/System.Reactive.Core.dll": {}
         }
       },
       "System.Reactive.Interfaces/3.0.0": {
@@ -284,10 +248,7 @@
           "System.Runtime": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.0/System.Reactive.Interfaces.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.0"
-          }
+          "lib/netstandard1.0/System.Reactive.Interfaces.dll": {}
         }
       },
       "System.Reactive.Linq/3.0.0": {
@@ -310,10 +271,7 @@
           "System.Threading.Tasks": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/System.Reactive.Linq.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.0"
-          }
+          "lib/netstandard1.3/System.Reactive.Linq.dll": {}
         }
       },
       "System.Reactive.PlatformServices/3.0.0": {
@@ -332,10 +290,7 @@
           "System.Threading.Tasks": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/System.Reactive.PlatformServices.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.0"
-          }
+          "lib/netstandard1.3/System.Reactive.PlatformServices.dll": {}
         }
       },
       "System.Reflection/4.1.0": {
@@ -356,10 +311,7 @@
           "System.Runtime": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/System.Reflection.Emit.dll": {
-            "assemblyVersion": "4.0.1.0",
-            "fileVersion": "1.0.24212.1"
-          }
+          "lib/netstandard1.3/System.Reflection.Emit.dll": {}
         }
       },
       "System.Reflection.Emit.ILGeneration/4.0.1": {
@@ -369,10 +321,7 @@
           "System.Runtime": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {
-            "assemblyVersion": "4.0.1.0",
-            "fileVersion": "1.0.24212.1"
-          }
+          "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {}
         }
       },
       "System.Reflection.Emit.Lightweight/4.0.1": {
@@ -383,10 +332,7 @@
           "System.Runtime": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {
-            "assemblyVersion": "4.0.1.0",
-            "fileVersion": "1.0.24212.1"
-          }
+          "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {}
         }
       },
       "System.Reflection.Extensions/4.0.1": {
@@ -410,10 +356,7 @@
           "System.Runtime": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": {
-            "assemblyVersion": "4.1.0.0",
-            "fileVersion": "1.0.24212.1"
-          }
+          "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": {}
         }
       },
       "System.Resources.ResourceManager/4.0.1": {
@@ -443,10 +386,7 @@
           "System.Runtime": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/System.Runtime.InteropServices.WindowsRuntime.dll": {
-            "assemblyVersion": "4.0.1.0",
-            "fileVersion": "1.0.24212.1"
-          }
+          "lib/netstandard1.3/System.Runtime.InteropServices.WindowsRuntime.dll": {}
         }
       },
       "System.Runtime.Serialization.Primitives/4.1.1": {
@@ -455,10 +395,7 @@
           "System.Runtime": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {
-            "assemblyVersion": "4.1.1.0",
-            "fileVersion": "1.0.24212.1"
-          }
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
         }
       },
       "System.Text.Encoding/4.0.11": {
@@ -474,10 +411,7 @@
           "System.Threading.Tasks": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/System.Threading.dll": {
-            "assemblyVersion": "4.0.11.0",
-            "fileVersion": "1.0.24212.1"
-          }
+          "lib/netstandard1.3/System.Threading.dll": {}
         }
       },
       "System.Threading.Tasks/4.3.0": {
@@ -492,30 +426,15 @@
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
-          "lib/netstandard1.0/Plugin.DeviceInfo.Abstractions.dll": {
-            "assemblyVersion": "3.1.0.0",
-            "fileVersion": "3.1.0.0"
-          },
-          "lib/netstandard1.0/Plugin.DeviceInfo.dll": {
-            "assemblyVersion": "3.1.0.0",
-            "fileVersion": "3.1.0.0"
-          }
+          "lib/netstandard1.0/Plugin.DeviceInfo.Abstractions.dll": {},
+          "lib/netstandard1.0/Plugin.DeviceInfo.dll": {}
         }
       },
       "Xamarin.Forms/3.1.0.697729": {
         "runtime": {
-          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.0"
-          },
-          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.0"
-          }
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {}
         }
       },
       "Xamarin.Forms.BehaviorsPack/2.0.0": {
@@ -523,10 +442,7 @@
           "Xamarin.Forms": "3.1.0.697729"
         },
         "runtime": {
-          "lib/netstandard2.0/Xamarin.Forms.BehaviorsPack.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.0"
-          }
+          "lib/netstandard2.0/Xamarin.Forms.BehaviorsPack.dll": {}
         }
       },
       "Xamarin.LiveReload/0.3.27": {
@@ -538,18 +454,9 @@
           "Xamarin.Forms": "3.1.0.697729"
         },
         "runtime": {
-          "lib/netstandard2.0/Xamarin.Forms.Loader.dll": {
-            "assemblyVersion": "0.3.27.0",
-            "fileVersion": "0.3.27.0"
-          },
-          "lib/netstandard2.0/Xamarin.Live.Reload.dll": {
-            "assemblyVersion": "0.3.27.0",
-            "fileVersion": "0.3.27.0"
-          },
-          "lib/netstandard2.0/Xamarin.Live.dll": {
-            "assemblyVersion": "0.3.27.0",
-            "fileVersion": "0.3.27.0"
-          }
+          "lib/netstandard2.0/Xamarin.Forms.Loader.dll": {},
+          "lib/netstandard2.0/Xamarin.Live.Reload.dll": {},
+          "lib/netstandard2.0/Xamarin.Live.dll": {}
         }
       }
     }
@@ -570,7 +477,7 @@
     "Merq/1.0.0-rc": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3qDARqsMuBp2ATWuNlVu51gKieMKe8K9CWTRCjBynMgBpeSelFFjTRrXDUdTyuA8w3rbvUZEyrZ/OBAPwQzV9w==",
+      "sha512": "sha512-gX8kGXFwdvl31avBSYks1ONgKPr/in+WnDkFOrchfoHJWsogkbl0eQrtUjBVa/26g5ucIF98hlH452PslFPT5A==",
       "path": "merq/1.0.0-rc",
       "hashPath": "merq.1.0.0-rc.nupkg.sha512"
     },
@@ -612,14 +519,14 @@
     "Syncfusion.Licensing/16.2.0.46": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-E20Az08oquueGoHAkXMNTsjJhp/h+9YLFAQvKzPxQxEzblJ57QzoB7LiTSGURi9rFjf1gtdApG8p/QpMWsH/MQ==",
+      "sha512": "sha512-eWHbVzNSlDIMHQyUUONecEl5i8pSLiOp9b1faP7PHOuuBVa7reHcXzLW81tCtYj1JoXtuQqFjvBABQldeJrIKw==",
       "path": "syncfusion.licensing/16.2.0.46",
       "hashPath": "syncfusion.licensing.16.2.0.46.nupkg.sha512"
     },
     "Syncfusion.Xamarin.SfAutoComplete/16.2.0.46": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tznVspwI8VysAAEbgSpkAugYI+XrKGlT+5hBzrMYt1KK9J1zMQUWTzmGzt+i/YtyikyyYk92BdVPMYxOSPytbA==",
+      "sha512": "sha512-hCn/Pi6SPvaziRHrK0XAfN+HElUjpbRBxyvjQnfbz7+vrMQED1RJdiyfplRL2dmYjlkIlEV1h9KmV1FOjPswEQ==",
       "path": "syncfusion.xamarin.sfautocomplete/16.2.0.46",
       "hashPath": "syncfusion.xamarin.sfautocomplete.16.2.0.46.nupkg.sha512"
     },
@@ -871,14 +778,14 @@
     "Xamarin.Forms/3.1.0.697729": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oYfHpCY9i9wN4vLllsIhzDZY5iOCUtZ3RHxID1fiXOcf7yL9UA16NUsI8opoNmpv1Ru2lTGG9ZKKT1sYS6DLjA==",
+      "sha512": "sha512-6y1rnRKVqgRWpGy+mjlgf5cxRYiHsiGS4b51/AJxxkEyf7w1XJGzcLl4wV8Yjpv6/kKxsIBoAgqxIdFElQcNkA==",
       "path": "xamarin.forms/3.1.0.697729",
       "hashPath": "xamarin.forms.3.1.0.697729.nupkg.sha512"
     },
     "Xamarin.Forms.BehaviorsPack/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-y10QSVriQtrknkW6xkxmotXLS7xvgdk5WnwGt9fx0/Zd6aq3qggScrlGLTPKcGFUC8+aQJ+9JkMBurGdNORBhw==",
+      "sha512": "sha512-UWXg9OF+6dMRv9VVK0L/9h+F9/mubaOTBa8vmUQu4Yu3y5ia3klXVoOAAV+O8rmsVLIfFTJcxTo4vrI4963anQ==",
       "path": "xamarin.forms.behaviorspack/2.0.0",
       "hashPath": "xamarin.forms.behaviorspack.2.0.0.nupkg.sha512"
     },

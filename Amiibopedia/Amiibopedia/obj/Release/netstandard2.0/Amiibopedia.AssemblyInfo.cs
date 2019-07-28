@@ -11,8 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyMetadata("MqttSessionId", "ec8eb59d2412")]
-[assembly: System.Reflection.AssemblyMetadata("MqttLocalHostAddress", "192.168.0.14")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Amiibopedia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
